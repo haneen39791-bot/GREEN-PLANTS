@@ -75,24 +75,26 @@ body {
 
 }
 
+
+
 input[type="submit"], input[type="reset"] {
-  background-color: rgb(77, 177, 95);
+  background-color: rgb(77, 177, 95) ;
   color: white;
   border: none;
   padding: 8px 8px;
   border-radius: 5px;
 
 }
-.end input:hover{
+.end input:hover, 
+.end select:hover{
     background-color: lightgray;
     cursor: pointer;
 }
-.end input[type="submit"]:hover, input[type="reset"]:hover {
+.end input[type="submit"]:hover, 
+.end input[type="reset"]:hover {
     background-color: darkgreen;
     cursor: pointer;
 }
-
-
 
 
 .footer h5 {
