@@ -1,0 +1,103 @@
+body {
+    background: radial-gradient(circle, white 73%, rgb(244, 244, 129));
+} 
+ 
+ .start {
+    text-align: center;
+ }
+ .start h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(19, 128, 39);
+    text-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+
+ }
+ .start img {
+    height: 100px;
+    width: 100px;
+ }
+
+ .start p {
+    background-color: rgb(77, 177, 95);
+    padding: 10px;
+    border-radius: 8px;
+    border-width: 6px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.2); 
+    color: white;
+ }
+
+
+ 
+ .middle h4 {
+    background: radial-gradient(circle, white 20%, rgb(81, 201, 189));
+    padding: 10px;
+    border-radius: 50px;
+    color: rgb(81, 201, 189);
+    text-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.middle img {
+    height: 88px;
+    width: 88px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(81, 201, 189, 0.5) ;
+
+
+}
+.middle img:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+
+}
+.middle p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: small;
+
+}
+.plants {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 150px;
+    text-align: center;
+    background-color: white;    
+
+}
+.end  {
+   background: radial-gradient(circle, white 20%, rgb(81, 201, 189));
+    padding: 10px;
+    border-radius: 50px;
+    color: rgb(81, 201, 189);
+    text-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input[type="submit"], input[type="reset"] {
+  background-color: rgb(77, 177, 95);
+  color: white;
+  border: none;
+  padding: 8px 8px;
+  border-radius: 5px;
+
+}
+.end input:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.end input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+
+
+
+.footer h5 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(19, 128, 39);
+    text-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+}

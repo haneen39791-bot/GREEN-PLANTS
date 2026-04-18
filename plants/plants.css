@@ -1,0 +1,66 @@
+body {
+    background: radial-gradient(circle, white 73%, rgb(244, 244, 129));
+    text-align: center;
+
+} 
+ 
+ .start {
+    text-align: center;
+ }
+ .start h3, h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(19, 128, 39);
+    text-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+
+ }
+ .start img {
+    height: 60px;
+    width: 60px;
+ }
+.middle video {
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(81, 201, 189, 0.5) ;
+    text-align: center;
+
+
+}
+
+
+ .end table {
+    margin: auto;
+    border-collapse: collapse ;
+
+
+ }
+.end th, tr {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-collapse: collapse ;
+    background: radial-gradient(circle, white 20%, rgb(81, 201, 189));
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 150px;
+}
+.end td {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-collapse: collapse ;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+ 
+.footer input{
+    background-color: rgb(77, 177, 95);
+  color: white;
+  border: none;
+  padding: 8px 8px;
+  border-radius: 5px;
+}
+.footer input:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}
